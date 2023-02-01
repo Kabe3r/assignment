@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: whitesmoke;
 }
 
 .App-logo {
@@ -36,3 +41,134 @@
     transform: rotate(360deg);
   }
 }
+
+.contact-container {
+  background-color: white;
+  width: 800px;
+  height: 400px;
+  display: grid;
+}
+
+table {
+  background: #DD4124;
+}
+
+table > thead {
+  color: white;
+}
+
+table > thead > tr > th {
+  padding: 20px;
+}
+
+
+table > tbody {
+  background: white;
+  text-align: center;
+}
+
+tbody > tr > td {
+  padding: 10px;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.page-container {
+  display: flex;
+}
+
+.active {
+  color: white !important;
+  background: #DD4124;
+}
+
+.desc {
+  text-align: left;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  color:#DD4124;
+  cursor:pointer;
+  font-size:16px;
+  text-align:center;
+  padding: 0 10px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin:5px;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background: #DD4124;
+  color: #fff;
+}
+
+.table-btn {
+  background: #DD4124;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.modal {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  z-index: 1; 
+  width: 100%; 
+  height: 100%; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+  padding-top: 80px; 
+}
+
+.modal-content {
+  background-color: white;
+  width: 70%; 
+  max-width: 640px; 
+  height: 40%; 
+  margin: auto; 
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; 
+}
+
+.modal-flex {
+   display: flex;
+   justify-content: space-between;
+}
+
+.text {
+  text-align: left;
+}
+
+.desc {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.close {
+  background: transparent;
+  font-size: 32px;
+  border: none;
+}
+
+
