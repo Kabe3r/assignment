@@ -4,7 +4,7 @@ import { paginate } from './helper';
 
 const ContactsContext = React.createContext();
 
-const url = process.env.REACT_APP_URL;
+const url = 'https://jsonplaceholder.typicode.com/users';
 
 export const AppProvider = ({ children }) => {
       const [fetchData, setFetchData] = useState([]);

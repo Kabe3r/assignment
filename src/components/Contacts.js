@@ -4,7 +4,6 @@ import { title } from "../helper";
 const Contacts = () => {
       const { fetchData, handlePage, contacts, setPage, page, modal, openModal, closeModal, filterContacts } = useContactsContext();
 
-      console.log(modal)
       return (
             <div className="">
                   <div className="contact-container">
